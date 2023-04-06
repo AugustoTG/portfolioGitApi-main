@@ -9,7 +9,7 @@ import "./styles/projects.css";
 function Projects() {
   const [projects, setProjects] = useState([]);
   const [website, setWebsite] = useState("");
-  const repo = "juliocesardemoraes";
+  const repo = "AugustoTG";
 
   useEffect(() => {
     fetch(`https://api.github.com/users/${repo}/repos`)
